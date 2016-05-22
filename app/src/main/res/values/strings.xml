@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EsriExample</string>
+    <string name="basemap">Basemaps</string>
+    <string name="layer">Layer</string>
+    <string name="featurelayer1">Bars/Rest.</string>
+    <string name="wmslayer1">Ortho.Pho.</string>
+
+    <!-- basemap menu items -->
+    <string name="StreetMapMenu">Streets</string>
+    <string name="TopoMenu">Topographic</string>
+    <string name="GrayMenu">Gray</string>
+    <string name="OceanMenu">Oceans</string>
+
+    <!--<string name="featureServiceURL">http://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Cities/FeatureServer/0</string>
+    --><!--<string name="featureServiceURL">http://sampleserver5a.arcgisonline.com/ArcGIS/rest/services/LocalGovernment/Events/FeatureServer/0</string>
+
+   <string name="featureServiceURL">http://services6.arcgis.com/TnkL2ImtItc6HyO9/arcgis/rest/services/Restaurant/FeatureServer/0</string>
+    -->
+   <string name="featureServiceURL">http://services3.arcgis.com/cxgJAbBdzDaaCswx/arcgis/rest/services/city/FeatureServer/0</string>
+   <string name="WMSURL">http://www.wms.nrw.de/geobasis/wms_nw_dop40</string>
+</resources>
