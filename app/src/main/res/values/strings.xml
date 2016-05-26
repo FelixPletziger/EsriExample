@@ -2,8 +2,10 @@
     <string name="app_name">EsriExample</string>
     <string name="basemap">Basemaps</string>
     <string name="layer">Layer</string>
-    <string name="featurelayer1">Bars/Rest.</string>
+    <string name="featurelayer1">on. Bars/Rest.</string>
+    <string name="featurelayer2">off. Bars/Rest.</string>
     <string name="wmslayer1">Ortho.Pho.</string>
+    <string name="dgk5">DGK5</string>
 
     <!-- basemap menu items -->
     <string name="StreetMapMenu">Streets</string>
@@ -16,6 +18,14 @@
 
    <string name="featureServiceURL">http://services6.arcgis.com/TnkL2ImtItc6HyO9/arcgis/rest/services/Restaurant/FeatureServer/0</string>
     -->
-   <string name="featureServiceURL">http://services3.arcgis.com/cxgJAbBdzDaaCswx/arcgis/rest/services/city/FeatureServer/0</string>
+   <string name="featureServiceURL">http://services6.arcgis.com/TnkL2ImtItc6HyO9/arcgis/rest/services/Restaurant/FeatureServer/0</string>
+   <string name="featurelayer_url">http://services6.arcgis.com/TnkL2ImtItc6HyO9/arcgis/rest/services/Restaurant/FeatureServer/0</string>
+   <string name="featureservice_url">http://services6.arcgis.com/TnkL2ImtItc6HyO9/arcgis/rest/services/Restaurant/FeatureServer</string>
+
    <string name="WMSURL">http://www.wms.nrw.de/geobasis/wms_nw_dop40</string>
+
+    <string name="config.data.sdcard.offline.dir">ArcGIS/samples/CRGdb</string>
+    <string name="config.geodatabase.name">bo</string>
+    <string name="config.local.basemap">bochum.tpk</string>
+    <string name="menu_download">Download</string>
 </resources>

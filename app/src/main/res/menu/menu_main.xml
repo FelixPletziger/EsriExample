@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <item android:id="@+id/action_download"
+        android:icon="@drawable/download"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_download"/>
     <item
         android:id="@+id/Basemap"
         android:showAsAction="never"
@@ -23,6 +26,10 @@
                     android:id="@+id/Ocean_Basemap"
                     android:showAsAction="never"
                     android:title="@string/OceanMenu" />
+                <item
+                    android:id="@+id/DGK5"
+                    android:showAsAction="never"
+                    android:title="@string/dgk5" />
             </group>
         </menu>
     </item>
@@ -33,13 +40,17 @@
         <menu>
             <group android:checkableBehavior="all">
                 <item
-                    android:id="@+id/featurelayer1"
+                    android:id="@+id/onlinefeaturelayer"
                     android:showAsAction="never"
                     android:title="@string/featurelayer1" />
                 <item
                     android:id="@+id/wmslayer1"
                     android:showAsAction="never"
                     android:title="@string/wmslayer1" />
+                <item
+                    android:id="@+id/offlinefeaturelayer"
+                    android:showAsAction="never"
+                    android:title="@string/featurelayer2" />
             </group>
         </menu>
     </item>
